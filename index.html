@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Flow</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/web-flow.css">
 </head>
-<body style="background-color: rgba(173, 223, 227, 0.143);">
+<body style="background-color: rgba(173, 223, 227, 0.143);" class="raleway-normal" >
     <header class="header-bg">
         <nav>
-            <h3 class="nav-weight">LOGO</h3>
+            <h3 class="nav-weight inter-normal">LOGO</h3>
             <button class=" p-button">Sign Up</button>
 
         </nav>
         <div class="banner-container">
-            <div class="banner-text">Cool Dark UI Template for Webflow Agencies!</div>
+            <div style="font-weight: bold;" class="banner-text">Cool Dark UI Template for Webflow Agencies!</div>
             <div style="text-align: center;">
-                <button class="p-button">Stay Focused</button>
+                <button class="p-button a">Stay Focused</button>
             </div>
         </div>
  
@@ -33,7 +39,7 @@
             </div>
             <img class="wc-mini-container" src="media/wc-mini.png" alt="">
         </section>
-        <section class="users-container">
+        <section class="users-container inter-normal">
         <div class="users-container-2">
             <h1 class="users-header">Joined Thousands of Productive Users</h1>
         <ul class="list-container">
@@ -46,6 +52,7 @@
         </ul>
         </div>
         </section>
+
         <section>
             <h1 class="review-title">What Our Users Say</h1>
             <div class="review-container">
@@ -83,14 +90,36 @@
                     </div>
                 </div>
             </div>
-        </section>       
+        </section>      
+        <section >
+            <h1>Ready to focus better</h1>
+            <p>This template instantly leveled up our presence.” – Studio Vertex</p>
+            <button>Get Started Free</button>
+            <img src="media/wc-big.png">
+        </section>
+        <section class="touch-container">
+            <div style="max-width: 500px; margin-right: 200px;">
+                <p style="font-weight: bold; font-size: 97px;">Let's get in Touch</p>
+
+            </div>
+            <div class="input-type">
+                <label for="email">Email</label><br>
+                <input type="email" placeholder="example@gmail.com" id="email">
+                <label for="name">Name</label><br>
+                <input type="text" placeholder="full name" id="name">
+                <label for="message">Message</label><br>
+                <textarea name="Message" id="message" cols="40" rows="5" placeholder="write you message..."></textarea>
+                <input class="p-button"  type="submit" value="Get in Touch">
+
+            </div>
+        </section> 
 
     </main>
      
    
     <footer class="footer-container">
         <section class="footer-container">
-            <h1 class="footer-logo">LOGO</h1>
+            <h1 class="footer-logo inter-normal">LOGO</h1>
             <p class="footer-description">Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
             <div class="footer-items">
                 <li>Home</li>
