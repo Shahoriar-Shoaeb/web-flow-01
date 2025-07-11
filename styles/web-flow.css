@@ -1,0 +1,111 @@
+/* shared styles */
+.p-button{
+    color: #FFFFFF;
+    font-weight:bold;
+    font-size:16px;
+    border: none;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+.p-button:hover{
+    background-color: tomato;
+}
+
+/* header styles */
+.header-bg{
+    background-image: url(../media/Hero-bg.png);
+}
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px 0px 150px;
+    align-items: center;
+}
+.nav-weight{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+/* banner styles */
+.banner-container{
+    max-width: 800px;
+    margin: 150px 150px 150px 150px;
+
+}
+.banner-text{
+    color: #252432;
+    font-size: 65px;
+    border: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* action styles */
+.action-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 140px;
+}
+.action-text{
+    max-width: 300px;
+    padding: 100px;
+
+}
+.wc-mini-container{
+    border-radius: 30px;
+}
+.action-header{
+
+}
+.action-description{
+
+}
+
+/* users section */
+.users-container{
+    margin: 140px;
+    background-color: rgba(133, 133, 239, 0.209);
+    border-radius: 20px;
+}
+.users-container-2{
+      padding: 40px 70px 40px 70px;
+}
+.users-header{
+    text-align: center;
+}
+.list-container{
+    display: flex;
+    /* gap: 150px; */
+    justify-content: space-around;
+    list-style-type: none;
+}
+.users-title{
+   color: #4E47FF;
+   font-size: 80px;
+   font-weight: 900;
+}
+.users-subtitle{
+   color: #686565 ;
+   text-align: center;
+   padding-left: 20px;
+}
+
+/* touch styles */
+.touch-container{
+    display: flex;
+    margin: 100px 150px 100px 150px;
+}
+
+.input-type input{
+    height: 50x;
+    border-radius: 5px;
+    /* background-color: white; */
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
